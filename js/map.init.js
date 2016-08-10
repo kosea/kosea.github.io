@@ -1,8 +1,8 @@
 var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 17,
-   
+
 	scrollwheel: false,
-    center: {lat: 40.7143528, lng: -74.0059731}
+    center: {lat: 37.4775778, lng: 127.12499830000002}
 });
 
  var marker = new google.maps.Marker({
@@ -10,7 +10,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
     icon: "images/map-marker.png",
     // Define the place with a location, and a query string.
     place: {
-      location: {lat: 40.7143528, lng: -74.0059731},
+      location: {lat: 37.4775778, lng: 127.12499830000002},
       query: 'Google, Sydney, Australia'
 
     },
